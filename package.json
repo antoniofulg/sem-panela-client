@@ -1,4 +1,17 @@
 {
+  "name": "sem-panela",
+  "version": "0.0.1",
+  "description": "Easy way to sort your team!",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "test": "jest --passWithNoTests --no-cache --runInBand",
+    "test:watch": "yarn test -- --watch --coverage",
+    "test:staged": "yarn test -- --findRelatedTests",
+    "test:ci": "yarn test -- --coverage"
+  },
+  "author": "Antonio Fulgêncio <antoniofulg@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
